@@ -19,7 +19,11 @@ $("#addButton").click(function(){
 
     var tempQues = $("#btnQuestion"+buttonsSoFar);
     tempQues.click(function(){
-        tempQues.attr("value","sha");
+      if (tempQues.attr("value")==questionText)
+      tempQues.attr("value","Flip to see the question");
+      else {
+        tempQues.attr("value",questionText);
+      }
     });
 
     buttonsSoFar++;
