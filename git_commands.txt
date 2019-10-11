@@ -1,0 +1,8 @@
+git clone <repo url>
+made changes ....
+git status (to see modified files)
+git add . (to stage all changed files)
+git commit (opens a text editor, then type commit message, then press ctrl+x) // git commit -m "add button" 
+git log (to verify if the commit is showing in tree)
+git push
+
